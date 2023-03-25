@@ -2,7 +2,7 @@ uid = 10891679050
 
 local function Texto(msg)
 
-if (msg.eventobjid == 1089167905) then
+if (msg.eventobjid == uid) then
   if (msg.content == "/diamante") then
 
       id_do_item = 11203 --Id do Item (DIAMANTE)
